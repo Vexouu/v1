@@ -17,6 +17,7 @@ header{
 	border-bottom: solid;
 	border-color: #008349;
 	padding-bottom: 2%;
+	background-color: rgba(0,0,0,0.2);
 }
 
 nav{
@@ -101,8 +102,8 @@ nav{
 
 #Navigateur p{
 	font-weight: bold;
-}
 
+}
 
 
 /* Centre de la page */
@@ -110,17 +111,23 @@ main{
 	flex:1;
 	display: flex;
 	align-items: center;
+	background-color: blue;
 	
 }
-#container{
+
+.container{
 	display: flex;
-	
-	width: auto;
-	height: 100%;
+
+}
+#ContPres{
+	background-color: red;
+	width: 100%;
+	display: flex;
+	justify-content: center;
 }
 
 
-#ContLogoText{
+#IndContLogoText{
 	display: flex;
 	align-items: center;
 	justify-content: center;
