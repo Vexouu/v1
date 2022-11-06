@@ -11,6 +11,17 @@ body{
 
 }
 
+
+
+
+
+
+
+
+
+
+
+
 /* Barre de Navigation */
 
 header{
@@ -18,6 +29,7 @@ header{
 	border-color: #008349;
 	padding-bottom: 2%;
 	background-color: rgba(0,0,0,0.2);
+	width: 100%;
 }
 
 nav{
@@ -106,21 +118,38 @@ nav{
 }
 
 
-/* Centre de la page */
-main{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Centre de la page Index */
+main#MainIndex{
 	flex:1;
 	display: flex;
 	align-items: center;
-	background-color: blue;
 	
 }
 
-.container{
+.container#IndContMain{
 	display: flex;
 
 }
 #ContPres{
-	background-color: red;
 	width: 100%;
 	display: flex;
 	justify-content: center;
@@ -156,7 +185,115 @@ main{
 #imageDiapo{
 	display: flex;
 	flex-direction: row;
+	
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Centre de la page Pres*/
+
+
+main h1{
+	text-align: center;
+}
+
+main#MainPres{
+	margin-bottom: 2%;
+}
+#PresStatus{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 15%;
+	align-items: center;
+	border: solid;
+	border-color: #008349;
+	border-radius: 10px;
+	font-size: 150%;
+	color: #008349;
+	font-weight: bold;
+	width: 20%;
+	margin: auto;
+}
+
+#PresStatus img{
+	width: 15%;
+	height: auto;
+}
+
+#PresStatus:hover{
+	border-color: white;
+	color: white;
+}
+
+.container#ContPres{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#BureauText{
+	margin: 5%;
+}
+#BureauText ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	list-style-type: none;
+	width: 100%;
+}
+
+#PresText{
+	margin: 5%;
+}
+#PresText p{
+	color: #008349;
+	font-size: 200%;
+}
+
+main hr{
+	width:100%;
+}
+
+#Présentation{
+	border-bottom: solid;
+	border-color: #008349;
+}
+#Bureau{
+	border-bottom: solid;
+	border-color: #008349;
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
