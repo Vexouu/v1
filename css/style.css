@@ -1,0 +1,184 @@
+body{
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	background-image: url(../img/background.png);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: rgba(255,255,255,0.5);
+
+}
+
+/* Barre de Navigation */
+
+header{
+	border-bottom: solid;
+	border-color: #008349;
+	padding-bottom: 2%;
+}
+
+nav{
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+#HeaderLogo{
+	width: 10%;
+	height: 100%;
+	text-align: center;
+
+}
+
+
+#HeaderLogo img{
+	text-align: center;
+	width: 60%;
+}
+
+
+#Navigateur{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+	
+#Navigateur ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	list-style-type: none;
+	gap:7%;
+}
+
+
+#Navigateur li{
+    color : #008349;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+
+#local{
+	text-align: center;
+}
+
+
+#Navigateur a:visited{
+    color: #008349;
+    text-decoration: none;
+}
+
+
+#Navigateur a:visited:hover{
+	color: white;
+	text-decoration: none;
+}
+
+
+#Navigateur a:visited:active{
+	color: white;
+	text-decoration: none;
+}
+
+
+#Navigateur a:link{
+    text-decoration: none;
+}
+
+
+#Navigateur a{
+	color: #008349 ;
+}
+
+
+#Navigateur p{
+	font-weight: bold;
+}
+
+
+
+/* Centre de la page */
+main{
+	flex:1;
+	display: flex;
+	align-items: center;
+	
+}
+#container{
+	display: flex;
+	
+	width: auto;
+	height: 100%;
+}
+
+
+#ContLogoText{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 50%;
+	color: #008349;
+	font-size: 200%;
+	font-weight: bold;
+	text-align: center;
+
+	
+}
+
+#Diapo{
+	display: flex;
+	overflow: hidden;
+	width: 50%;
+	align-items: center;
+
+}
+
+#Diapo img{
+	width: 100%;
+	height: auto;
+}
+
+#imageDiapo{
+	display: flex;
+	flex-direction: row;
+}
+
+
+
+/* Footer */
+
+footer{
+	width: 50%;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+#barfoot{
+	align-items: center;
+}
+#barfoot ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	list-style-type: none;
+}
+
+
+#barfoot li{
+    color : white;
+    font-weight: bold;
+    font-size: 20px;
+ }
+
+#barfoot img{
+	width: 20%;
+	height: auto;
+}
