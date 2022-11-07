@@ -216,6 +216,7 @@ main h1{
 }
 
 main#MainPres{
+	flex:1;
 	margin-bottom: 2%;
 }
 
@@ -267,13 +268,13 @@ main hr{
 	width:100%;
 }
 
-#Présentation{
+.border{
 	border-bottom: solid;
 	border-color: #008349;
 }
+
+
 #Bureau{
-	border-bottom: solid;
-	border-color: #008349;
 	width: 100%;
 }
 
@@ -281,8 +282,17 @@ main hr{
 	color: white;
 	font-size: 200%;
 	text-align: justify;
+	text-align-last: center;
 	background-color:#008349 ;
-	padding: 5%;
+	width: 100%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+
+}
+
+#BlockVert p{
+	margin-right: 5%;
+	margin-left: 5%;
 }
 
 #PresStatus{
@@ -307,6 +317,81 @@ main hr{
 
 
 
+/*Centre de la page Event*/
+
+main#EventMain{
+	flex:1;
+	height: 100%;
+}
+
+
+.EventContain{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	margin-left: 5%;
+	margin-right: 5% ;
+}
+
+
+.EventImageText{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.EventImageText p{
+	margin-left: 10%;
+	margin-right: 10% ;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	color:#D1D1D1 ;
+	font-weight: bold;
+	font-size: 150%;
+}
+.EventImageText h1{
+	color: white;
+	font-weight: bold;
+}
+
+.EventIcone{
+	width: 50%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.EventImage img{
+	max-height:285px ;
+}
+.EventIcone img{
+	
+	max-height: 285px;
+}
+
+
+
+
+.EventContainerDiv{
+	padding-bottom: 10%;
+}
+
+
+.EventContainerDiv h1{
+	color: white;
+	margin-top: 3%;
+	margin-bottom: 5%;
+}
+
+#SoirLudi{
+	background-color:#008349; 
+	padding-top: 1%;
+}
 
 
 
