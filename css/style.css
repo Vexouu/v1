@@ -111,6 +111,10 @@ nav{
 	color: #008349 ;
 }
 
+#Navigateur a:hover{
+	color: white ;
+}
+
 
 #Navigateur p{
 	font-weight: bold;
@@ -214,26 +218,13 @@ main h1{
 main#MainPres{
 	margin-bottom: 2%;
 }
-#PresStatus{
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	gap: 15%;
-	align-items: center;
-	border: solid;
-	border-color: #008349;
-	border-radius: 10px;
-	font-size: 150%;
-	color: #008349;
-	font-weight: bold;
-	width: 20%;
-	margin: auto;
-}
+
 
 #PresStatus img{
 	width: 15%;
 	height: auto;
 }
+
 
 #PresStatus:hover{
 	border-color: white;
@@ -249,6 +240,7 @@ main#MainPres{
 #BureauText{
 	margin: 5%;
 }
+
 #BureauText ul{
 	display: flex;
 	flex-direction: row;
@@ -259,10 +251,16 @@ main#MainPres{
 
 #PresText{
 	margin: 5%;
+	padding-bottom: 1%;
+	padding-top: 1%;
 }
-#PresText p{
-	color: #008349;
+#PresText p#PresBureau{
+	color: #D1D1D1;
 	font-size: 200%;
+	text-align: justify;
+}
+#PresText h1{
+	color: white;
 }
 
 main hr{
@@ -279,9 +277,29 @@ main hr{
 	width: 100%;
 }
 
+#BlockVert{
+	color: white;
+	font-size: 200%;
+	text-align: justify;
+	background-color:#008349 ;
+	padding: 5%;
+}
 
-
-
+#PresStatus{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 15%;
+	align-items: center;
+	border: solid;
+	border-color: #008349;
+	border-radius: 10px;
+	font-size: 200%;
+	color: #008349;
+	font-weight: bold;
+	width: 20%;
+	margin: auto;
+}
 
 
 
