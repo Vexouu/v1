@@ -60,7 +60,7 @@ nav{
 
 
 #Navigateur{
-	width: 100%;
+	width: 70%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -125,51 +125,64 @@ nav{
 
 }
 
-.barnav#Connexion {
+.login {
 	border: solid;
 	border-color: #008349;
 	background-color:#008349 ;
 	color: white;
+	font-size: 150%;
 	border-radius: 5px;
-	padding-right: 10px;
-	padding-left: 10px;
+	font-weight: bold;
 	}
 
-.barnav#Connexion a:visited{
+
+#NavLogin{
+	
+	width: 20%;
+	height: auto;
+	margin-right: 1%;
+}
+
+#NavLogin ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+
+
+
+.login a:visited{
     color: white;
     text-decoration: none;
 }
 
 
-/*.barnav#Connexion a;:visited:hover{
-	border-color: white;
-	text-decoration: none;
-}*/
-
-
-/*.barnav#Connexion a:visited:active{
+.login a:visited:hover{
 	color: #008349;
+	background-color: white;
 	border-color: white;
 	text-decoration: none;
-}*/
+}
 
 
-.barnav#Connexion a:link{
+.login a:visited:active{
+	color: #008349;
+	text-decoration: none;
+}
+
+
+.login a:link{
     text-decoration: none;
 }
 
 
-.barnav#Connexion a{
-	color: white ;
-}
-
-.barnav#Connexion a:hover{
+.login a:hover{
+	color: #008349 ;
+	background-color: white;
 	border-color: white;
-	text-decoration: none;
 }
-
-
-
 
 
 
@@ -218,11 +231,8 @@ main#MainIndex{
 }
 
 #Diapo{
-	display: flex;
-	overflow: hidden;
 	width: 50%;
-	align-items: center;
-
+	margin: 1%;
 }
 
 #Diapo img{
@@ -233,6 +243,8 @@ main#MainIndex{
 #imageDiapo{
 	display: flex;
 	flex-direction: row;
+	justify-content: center;
+	align-items: center;
 	
 }
 
@@ -283,15 +295,20 @@ main#MainPres{
 	align-items: center;
 }
 #BureauText{
-	margin: 5%;
+	width: 100%;
+}
+
+#BureauText h1{
+	color: white;
+	margin-top: 5%;
 }
 
 #BureauText ul{
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: center;
 	list-style-type: none;
-	width: 100%;
+	margin: 5%;
 }
 
 #PresText{
@@ -354,13 +371,25 @@ main hr{
 	width: 20%;
 	margin: auto;
 }
-.BureauPres img{
+.BureauMembre img{
 	width: 50%;
 }
 #PresBureau{
 	text-align: justify;
 	text-align-last: center;
 }
+
+.MembreBureau li{
+	text-align: center;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -452,7 +481,7 @@ main#EventMain{
 
 
 
-/*Centre de la page Pres*/
+/*Centre de la page Part*/
 
 main#PartMain{
 	flex: 1;
@@ -480,14 +509,16 @@ table{
 }
 
 #PartTex{
-	margin: 5%;
+	margin-top: 3%;
+	margin-right: 5%;
+	margin-left: 5%;
 }
 
 #PartTex p{
 	margin-left: 10%;
 	margin-right: 10% ;
-	margin-top: 5%;
-	margin-bottom: 5%;
+	margin-top: 4%;
+	margin-bottom: 4%;
 	color:#D1D1D1 ;
 	font-weight: bold;
 	font-size: 150%;
@@ -505,19 +536,29 @@ table{
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 /*Centre de la page Contact*/
 main#ContMain{
 	flex: 1;
+	width: 100%;
 }
-.ContactDiv{
-	border: solid;
-	border-radius: 10px;
-	border-color: #008349;
-}
+
 .ContactDiv:hover{
 	border: solid;
 	border-radius: 10px;
 	border-color: white;
+	text-decoration: none;
 }
 
 #ContactContMain{
@@ -534,18 +575,83 @@ main#ContMain{
 	gap : 10%;
 	width: 100%;
 	height: 100%;
-	margin: 5%;
+	margin-top: 5%;
+	margin-bottom: 5%;
 }
 
 .ContactDiv{
 	width: 350px;
 	height: 600px;
 	text-align: center;
+	justify-content: center;
+	border: solid;
+	border-radius: 10px;
+	border-color: #008349;
+	display: flex;
+	flex-direction: column;
+	font-size: 250%;
+	justify-content: center;
+	gap: 20%;
+	align-items: center;
+	font-weight: bold;
+	
 }
 .ContactDiv img{
-	width: 50%;
+	width: 100%;
 	margin-top: 25%;
+
 }
+.Contactcontainer{
+	width: 100%;
+}
+.ContactImage{
+	width:50% ;
+}
+.ContactText{
+	width: 50%;
+}
+
+.Contactcontainer a:visited{
+    color: #008349;
+    text-decoration: none;
+}
+
+
+.Contactcontainer a:visited:hover{
+	color: white;
+	text-decoration: none;
+}
+
+
+.Contactcontainer a:visited:active{
+	color: white;
+	text-decoration: none;
+}
+
+
+.Contactcontainer a:link{
+    text-decoration: none;
+}
+
+
+.Contactcontainer a{
+	color: #008349 ;
+}
+
+.Contactcontainer a:hover{
+	color: white ;
+}
+
+
+#Navigateur p{
+	font-weight: bold;
+
+}
+
+.ContactText{
+	text-align: center;
+}
+
 
 
 
