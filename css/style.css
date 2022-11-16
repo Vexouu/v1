@@ -180,8 +180,6 @@ nav{
 
 .login a:hover{
 	color: #008349 ;
-	background-color: white;
-	border-color: white;
 }
 
 
@@ -609,6 +607,8 @@ main#ContMain{
 }
 .ContactText{
 	width: 50%;
+	margin: auto;
+	padding: auto;
 }
 
 .Contactcontainer a:visited{
@@ -648,9 +648,6 @@ main#ContMain{
 
 }
 
-.ContactText{
-	text-align: center;
-}
 
 
 
