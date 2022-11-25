@@ -292,62 +292,6 @@ main#MainPres{
 	justify-content: center;
 	align-items: center;
 }
-#BureauText{
-	width: 100%;
-}
-
-#BureauText h1{
-	color: white;
-	margin-top: 5%;
-}
-
-#BureauText ul{
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	list-style-type: none;
-	margin: 5%;
-}
-
-#PresText{
-	margin: 5%;
-	padding-bottom: 1%;
-	padding-top: 1%;
-}
-#PresText p#PresBureau{
-	color: #D1D1D1;
-	font-size: 200%;
-	text-align: justify;
-}
-#PresText h1{
-	color: white;
-}
-
-main hr{
-	width:100%;
-}
-
-.border{
-	border-bottom: solid;
-	border-color: #008349;
-}
-
-
-#Bureau{
-	width: 100%;
-}
-
-#BlockVert{
-	color: white;
-	font-size: 200%;
-	text-align: justify;
-	text-align-last: center;
-	background-color:#008349 ;
-	width: 100%;
-	padding-top: 5%;
-	padding-bottom: 5%;
-
-}
 
 #BlockVert p{
 	margin-right: 5%;
@@ -369,25 +313,86 @@ main hr{
 	width: 20%;
 	margin: auto;
 }
-.BureauMembre img{
-	width: 50%;
+#PresText{
+	margin: 5%;
+	padding-bottom: 1%;
+	padding-top: 1%;
 }
-#PresBureau{
+#PresText p#PresBureau{
+	color: #D1D1D1;
+	font-size: 200%;
+	text-align: justify;
+}
+#PresText h1{
+	color: white;
+}
+#BlockVert{
+	color: white;
+	font-size: 200%;
 	text-align: justify;
 	text-align-last: center;
+	background-color:#008349 ;
+	width: 100%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+
+}
+.border{
+	border-bottom: solid;
+	border-color: #008349;
 }
 
-.MembreBureau li{
+.Pole{
+	display: flex;
+	flex-direction: column;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.Pole h1{
+	color: white;
+	font-weight: bold;
+	font-size: 200%;
+}
+.Liste{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
 	text-align: center;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+.Membre{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+	font-size: 150%;
+	color: white;
 }
 
+.Membre img{
+	width: 50%;
+	text-align: center;
+	
+}
 
+.Zoom img{
+	transition: all 1s ease;
+}
 
+.Zoom:hover img {
+transform:scale(1.15);
+}
 
-
-
-
-
+#Communication{
+	background-color:#008349 ;
+}
+#LAN{
+	background-color: #008349;
+}
 
 
 
@@ -645,11 +650,56 @@ main#ContMain{
 
 #Navigateur p{
 	font-weight: bold;
+}
 
+#ContactContMainFormulaire{
+	display: flex;
+	text-align: center;
+}
+
+#NousContacterDiv{
+	margin: auto;
+	width: 700px;
+	height: 790px;
+	border: solid;
+	border-radius: 20px;
+	border-color: #008349;
 }
 
 
+.NousContacter{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin: 10%;
+	font-size: 150%;
+	font-weight: bold;
+	color: #008349 ;
+}
+#NousContacterDiv h1{
+	font-size: 300%;
+	font-weight: bold;
+	color: #008349 ;
+}
 
+.input{
+	width: 300px;
+	height: 20px;
+}
+#MessageContact{
+	width: 300px;
+	height: 100px;
+
+}
+/*#ButtonEnvoyer{
+	width: 100px;
+	height: 50px;
+	background-color:#008349;
+	color: white;
+	font-weight: bold;
+	font-size: 100%;
+}*/
 
 
 

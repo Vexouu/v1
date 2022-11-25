@@ -60,9 +60,38 @@
 					
 					<a href="https://www.twitch.tv/obi_lan" target="_blank"><div id="ContTwitch" class="ContactDiv"><div class="ContactImage"><img src="../img/twitch.png"></div><div class="ContactText">Twitch</div></div></a>
 					
-					<a href="https://www.twitch.tv/obi_lan" target="_blank"><div id="ContObilan" class="ContactDiv"><div class="ContactImage"><img src="../img/iconeObilan.png" target="_blank"></div><div class="ContactText">Obi Lan</div></div></a>
+					<a href="https://obilan.net/" target="_blank"><div id="ContObilan" class="ContactDiv"><div class="ContactImage"><img src="../img/iconeObilan.png" target="_blank"></div><div class="ContactText">Obi Lan</div></div></a>
 				</div>
 
+			</div>
+			<div class="container" id="ContactContMainFormulaire">
+
+				<div id="NousContacterDiv">
+					<h1>Nous Contacter</h1>
+					<div class="NousContacter">
+						<label>Nom : </label>
+						<input type="text" placeholder="Nom..." class="input" id="nom">
+					</div>
+					<div class="NousContacter">
+						<label>Prenom : </label>
+						<input type="text" placeholder="Prénom..." class="input" id="prenom">
+					</div>
+					<div class="NousContacter">
+						<label>Email : </label>
+						<input type="text" placeholder="Toto@email.com" class="input" id="email">
+					</div>
+					<div class="NousContacter">
+						<label>Téléphone : </label>
+						<input type="tel" placeholder="07.82.91.44.17" class="input" pattern="[0-9]{2}.[0-9]{2}.[0-9]{2}.[0-9]{2}.[0-9]{2}" id="tel">
+					</div>
+					<div class="NousContacter">
+						<label>Message : </label>
+						<input type="text" placeholder="Message ..." class="input" id="MessageContact" id="message">
+					</div>
+					<div>
+						<input type="submit"  value="Enoyer" id="ButtonEnvoyer" onclick="formulaire()">
+					</div>
+				</div>
 			</div>	
 		</main>
 		
@@ -70,36 +99,36 @@
 
 
 		<footer>
-			<div id="barfoot">
-				<ul>
-					<li>
-						<a href="https://www.facebook.com/assoOBI1" target="_blank">
-							<img src="../img/facebook.png" id="facebook" onmouseover="FacebookB()" onmouseleave="FacebookB()">
-						</a>
-					</li>
-					<li>
-						<a href="https://discord.gg/t7kfNEntMs" target="_blank">
-							<img src="../img/discord.png" id="discord" onmouseover="DiscordB()" onmouseleave="DiscordB()">
-						</a>
-					</li>
-					<li>
-						<a href="https://instagram.com/asso_obi1?igshid=YmMyMTA2MY=">
-							<img src="../img/insta.png" target="_blank" id="insta" onmouseover="InstaB()" onmouseleave="InstaB()">
-						</a>
-					</li>
-					<li>
-						<a href="https://twitter.com/AssociationOBI1" target="_blank">
-							<img src="../img/twitter.png" id="twitter" onmouseover="TwitterB()" onmouseleave="TwitterB()">
-						</a>
-					</li>
-					<li>
-						<a href="https://www.twitch.tv/obi_lan" target="_blank" >
-							<img src="../img/twitch.png" id="twitch" onmouseover="TwitchB()" onmouseleave="TwitchB()">
-						</a>
-					</li>
-				</ul>
-			</div>
-		</footer>
+		<div id="barfoot">
+			<ul>
+				<li class="Zoom">
+					<a href="https://www.facebook.com/assoOBI1" target="_blank">
+						<img src="../img/facebook.png" id="facebook" onmouseover="FacebookB()" onmouseleave="FacebookB()">
+					</a>
+				</li>
+				<li class="Zoom">
+					<a href="https://discord.gg/t7kfNEntMs" target="_blank">
+						<img src="../img/discord.png" id="discord" onmouseover="DiscordB()" onmouseleave="DiscordB()">
+					</a>
+				</li>
+				<li class="Zoom">
+					<a href="https://instagram.com/asso_obi1?igshid=YmMyMTA2MY=">
+						<img src="../img/insta.png" target="_blank" id="insta" onmouseover="InstaB()" onmouseleave="InstaB()">
+					</a>
+				</li>
+				<li class="Zoom">
+					<a href="https://twitter.com/AssociationOBI1" target="_blank">
+						<img src="../img/twitter.png" id="twitter" onmouseover="TwitterB()" onmouseleave="TwitterB()">
+					</a>
+				</li>
+				<li class="Zoom">
+					<a href="https://www.twitch.tv/obi_lan" target="_blank" >
+						<img src="../img/twitch.png" id="twitch" onmouseover="TwitchB()" onmouseleave="TwitchB()">
+					</a>
+				</li>
+			</ul>
+		</div>
+	</footer>
 	
 </body>
 </html>

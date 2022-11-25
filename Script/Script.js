@@ -156,3 +156,12 @@ function TwitchB(){
         i=0;
     }
 }
+
+function formulaire(){
+    let nom = document.getElementById("nom").value
+    let prenom = document.getElementById("prenom").value
+    let email = document.getElementById("email").value
+    let tel = document.getElementById("tel").value
+    let message = document.getElementById("message").value
+    alerte("Nom: "+nom+"\n prenom: "+prenom)
+}
