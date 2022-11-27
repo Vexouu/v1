@@ -158,10 +158,15 @@ function TwitchB(){
 }
 
 function formulaire(){
-    let nom = document.getElementById("nom").value
-    let prenom = document.getElementById("prenom").value
-    let email = document.getElementById("email").value
-    let tel = document.getElementById("tel").value
-    let message = document.getElementById("message").value
-    alerte("Nom: "+nom+"\n prenom: "+prenom)
+    let nom = document.getElementById("nom").value;
+    let prenom = document.getElementById("prenom").value;
+    let email = document.getElementById("email").value;
+    let tel = document.getElementById("tel").value;
+    let message = document.getElementById("MessageContact").value;
+    let balise = document.getElementById("ReponseForm");
+    if ((email == [^@\s]+@[^@\s]+\.[^@\s]+) && (tel == [0-9]{2}.[0-9]{2}.[0-9]{2}.[0-9]{2}.[0-9]{2}){
+        balise.innerHTML+="<p>Merci "+prenom+" "+nom+" pour le message suivant: <br>"+message+"<br><br>Nous vous contacterons par<br>Email : "+email+"<br>Teléphone: "+tel+"</p>";
+    }
+    //alert("Merci "+prenom+" "+nom+" pour le message suivant: "+message+"Nous vous contacterons parEmail : "+email+"Teléphone: "+tel+)
+    //alert(nom)
 }

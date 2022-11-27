@@ -326,6 +326,10 @@ main#MainPres{
 #PresText h1{
 	color: white;
 }
+
+#PresText a:link{
+    text-decoration: none;
+}
 #BlockVert{
 	color: white;
 	font-size: 200%;
@@ -374,8 +378,8 @@ main#MainPres{
 }
 
 .Membre img{
-	width: 50%;
 	text-align: center;
+	border-radius: 50%;
 	
 }
 
@@ -691,6 +695,13 @@ main#ContMain{
 	width: 300px;
 	height: 100px;
 
+}
+
+#ReponseForm{
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	font-size: 100%;
 }
 /*#ButtonEnvoyer{
 	width: 100px;
